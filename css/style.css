@@ -1,0 +1,15 @@
+.redsun {
+    color: red;
+  }
+
+  #h {
+    color: pink;
+  }
+
+  [dir="rtl"] {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  #aa {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
