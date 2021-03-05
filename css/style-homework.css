@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 150px;
+  background-color: navy;
+  overflow-x: hidden;
+}
+
+#body {
+  background-color: gray;
+  min-height: 500px;
+}
+
+#footer {
+    height: 50px;
+  background-color: black;
+  color: white;
+}
