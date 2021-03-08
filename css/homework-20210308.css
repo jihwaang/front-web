@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
+
+.left-header {
+  width: 20vw;
+  height: 100%;
+  background-color: red;
+  display: inline-block;
+  opacity: 0.8;
+  margin-right: -6px;
+}
+
+.middle-header {
+  width: 50vw;
+  height: 100%;
+  background-color: blue;
+  display: inline-block;
+  opacity: 0.8;
+  margin-right: -6px;
+}
+
+.right-header {
+  width: 30vw;
+  height: 100%;
+  background-color: yellow;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.main-wrapper {
+  height: 80vh;
+  background-color: skyblue;
+  display: flex;
+}
+
+.aside {
+  width: 30vw;
+  height: 100%;
+  background-color: yellowgreen;
+}
+
+.main {
+  width: 70vw;
+  height: 100%;
+  background-color: violet;
+}
+
+.footer {
+  height: 10vh;
+  background-color: gray;
+}
