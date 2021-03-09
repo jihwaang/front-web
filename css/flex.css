@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+#container > div {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+#container > div.box1 {
+  background-color: greenyellow;
+}
+
+#container > div.box2 {
+  background-color: green;
+}
+
+#container > div.box3 {
+  background-color: yellow;
+}
+
+#container > div.box4 {
+  background-color: red;
+}
+#container > div.box5 {
+  background-color: blue;
+}

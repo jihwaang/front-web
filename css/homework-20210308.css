@@ -1,60 +1,51 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .header-wrapper {
-  width: 100vw;
-  height: 10vh;
+  height: 70px;
   background-color: black;
   color: white;
+  display: flex;
 }
 
 .left-header {
-  width: 20vw;
-  height: 100%;
-  background-color: red;
-  display: inline-block;
+  background-color: greenyellow;
   opacity: 0.8;
-  margin-right: -6px;
+  flex: 1;
 }
 
 .middle-header {
-  width: 50vw;
-  height: 100%;
-  background-color: blue;
-  display: inline-block;
+  background-color: burlywood;
   opacity: 0.8;
-  margin-right: -6px;
+  flex: 1;
 }
 
 .right-header {
-  width: 30vw;
-  height: 100%;
-  background-color: yellow;
-  display: inline-block;
+  background-color: orchid;
   opacity: 0.8;
+  flex: 1;
 }
 
 .main-wrapper {
-  height: 80vh;
+  height: 440px;
   background-color: skyblue;
   display: flex;
 }
 
 .aside {
-  width: 30vw;
-  height: 100%;
-  background-color: yellowgreen;
+  background-color: tomato;
+  flex: 1;
 }
 
 .main {
-  width: 70vw;
-  height: 100%;
-  background-color: violet;
+  background-color: khaki;
+  flex: 3;
 }
 
 .footer {
-  height: 10vh;
+  height: 50px;
   background-color: gray;
 }

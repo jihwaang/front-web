@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="../css/style.css" type="text/css" />
-    <link href="../css/reset.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <!-- <link href="../css/reset.css" type="text/css" rel="stylesheet"> -->
   </head>
   <body>
-    <header id="h">
+    <header id="header">
+      <div class="float-content">
+        <a href="#" style="background-color: blue; height: 200px; display: list-item;">test link</a>
+        <!-- 
       <h1><img src="../images/logo.png" alt="뉴렉처 온라인" /></h1>
       <section>
         <h1 id="aa">헤더</h1>
@@ -42,106 +45,120 @@
             <li><a href="#">고객센터</a></li>
           </ul>
         </nav>
-      </section>
+      </section> 
+    -->
+      </div>
     </header>
-    <aside id="aside">
-      <h1>고객센터</h1>
-      <nav>
-        <h1>고객센터메뉴</h1>
-        <ul>
-          <li><a href="/notice/list.html">공지사항</a></li>
-          <li><a href="#">자주하는 질문</a></li>
-          <li><a href="#">수강문의</a></li>
-          <li><a href="#">이벤트</a></li>
-        </ul>
-      </nav>
 
-      <nav>
-        <h1>협력업체</h1>
-        <ul>
-          <li>노트펍스</li>
-          <li>나무랩연구소</li>
-        </ul>
-      </nav>
-    </aside>
-    <main>
-      <section>
-        <h1>공지사항</h1>
-        <section>
-          <h1>경로</h1>
-          <ol>
-            <li><a href="#">공지사항</a></li>
-            <li><a href="#">home</a></li>
-            <li><a href="#">고객센터</a></li>
-          </ol>
-        </section>
+    <div id="visual">
+      <div class="float-content"></div>
+    </div>
 
-        <section>
-          <h1>공지사항 목록</h1>
-          <table>
-            <thead>
-              <tr>
-                <td>번호</td>
-                <td>제목</td>
-                <td>작성자</td>
-                <td>작성일</td>
-                <td>조회수</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1026</td>
-                <td>스프링 MVC 공지사항 관리자 view 페이지</td>
-                <td>newlec</td>
-                <td>2020-12-30</td>
-                <td>1539</td>
-              </tr>
-              <tr>
-                <td>1024</td>
-                <td>스프링 MVC 소스코드</td>
-                <td>newlec</td>
-                <td>2020-12-12</td>
-                <td>1351</td>
-              </tr>
-              <tr>
-                <td>1023</td>
-                <td>스프링 JSON 출력을 위한 라이브러리 설정</td>
-                <td>newlec</td>
-                <td>2020-11-29</td>
-                <td>994</td>
-              </tr>
-              <tr>
-                <td>1022</td>
-                <td>스프링 강좌 RestController 한글 깨짐 설정 코드</td>
-                <td>newlec</td>
-                <td>2020-11-25</td>
-                <td>802</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <section>
-          <h1>현재 페이지 정보</h1>
-          <div>1 / 2 pages</div>
-        </section>
+    <div id="body">
+      <div class="float-content">
+        <aside id="aside">
+          <!--
+        <h1>고객센터</h1>
         <nav>
-          <h1>페이저</h1>
-          <div>이전</div>
+          <h1>고객센터메뉴</h1>
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li><a href="/notice/list.html">공지사항</a></li>
+            <li><a href="#">자주하는 질문</a></li>
+            <li><a href="#">수강문의</a></li>
+            <li><a href="#">이벤트</a></li>
           </ul>
-          <div>다음</div>
         </nav>
-      </section>
-    </main>
 
-    <footer>
-      회사정보 Copyright ⓒ newlecture.com 2012-2014 All Right Reserved. Contact
-      admin@newlecture.com for more information
+        <nav>
+          <h1>협력업체</h1>
+          <ul>
+            <li>노트펍스</li>
+            <li>나무랩연구소</li>
+          </ul>
+        </nav>
+        --></aside>
+        <main>
+          <!--
+        <section>
+          <h1>공지사항</h1>
+          <section>
+            <h1>경로</h1>
+            <ol>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">home</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ol>
+          </section>
+
+          <section>
+            <h1>공지사항 목록</h1>
+            <table>
+              <thead>
+                <tr>
+                  <td>번호</td>
+                  <td>제목</td>
+                  <td>작성자</td>
+                  <td>작성일</td>
+                  <td>조회수</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1026</td>
+                  <td>스프링 MVC 공지사항 관리자 view 페이지</td>
+                  <td>newlec</td>
+                  <td>2020-12-30</td>
+                  <td>1539</td>
+                </tr>
+                <tr>
+                  <td>1024</td>
+                  <td>스프링 MVC 소스코드</td>
+                  <td>newlec</td>
+                  <td>2020-12-12</td>
+                  <td>1351</td>
+                </tr>
+                <tr>
+                  <td>1023</td>
+                  <td>스프링 JSON 출력을 위한 라이브러리 설정</td>
+                  <td>newlec</td>
+                  <td>2020-11-29</td>
+                  <td>994</td>
+                </tr>
+                <tr>
+                  <td>1022</td>
+                  <td>스프링 강좌 RestController 한글 깨짐 설정 코드</td>
+                  <td>newlec</td>
+                  <td>2020-11-25</td>
+                  <td>802</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section>
+            <h1>현재 페이지 정보</h1>
+            <div>1 / 2 pages</div>
+          </section>
+          <nav>
+            <h1>페이저</h1>
+            <div>이전</div>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+            <div>다음</div>
+          </nav>
+        </section>
+        --></main>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="float-content">
+        <!-- 회사정보 Copyright ⓒ newlecture.com 2012-2014 All Right Reserved. Contact
+      admin@newlecture.com for more information -->
+      </div>
     </footer>
   </body>
 </html>
