@@ -1,0 +1,54 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper>div {
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    align-self: flex-start;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    align-self: center;
+    margin-top: -25px;
+    margin-right: 98px;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    align-self: flex-end;
+}
+
+.box4 {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    align-self: flex-end;
+    margin-right: 50px;
+}
