@@ -1,51 +1,58 @@
-* {
+*, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 .header-wrapper {
   height: 70px;
   background-color: black;
-  color: white;
   display: flex;
 }
 
 .left-header {
-  background-color: greenyellow;
+  background: url("../images/naver-logo.jpeg") no-repeat center;
+  background-size: cover;
   opacity: 0.8;
   flex: 1;
 }
 
 .middle-header {
-  background-color: burlywood;
+  background-color: rgba(4,207,92, .7);
   opacity: 0.8;
   flex: 1;
 }
 
 .right-header {
-  background-color: orchid;
+  background-color: rgba(4,207,92, .5);
   opacity: 0.8;
   flex: 1;
 }
 
 .main-wrapper {
-  height: 440px;
-  background-color: skyblue;
+  height: calc(100% - 120px);
+  background-color: rgba(4,207,92, .5);
   display: flex;
 }
 
 .aside {
-  background-color: tomato;
+  background-color: rgba(4,207,92, .7);
   flex: 1;
 }
 
 .main {
-  background-color: khaki;
+  background-color: rgba(4,207,92, .4);
   flex: 3;
 }
 
 .footer {
   height: 50px;
-  background-color: gray;
+  background-color: rgba(4,207,92, 1);
 }
