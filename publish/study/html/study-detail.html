@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/study-detail.css" type="text/css">
+    <link rel="stylesheet" href="../css/study-util.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <link rel="stylesheet" href="../css/gb-nav.css">
+    <script defer src="../js/gb-nav.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Global top [s] -->
+    <header class="header">
+        <section class="gb-top-nav">
+            <div class="logo">
+                <a href="#">study in</a>
+            </div>
+            <div class="search-bar">
+                <div class="search-wrapper">
+                <input type="text" name="" id="" placeholder="검색어 입력">
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="menu-button">
+                <input type="checkbox" name="" id="menuBtn">
+                <label for="menuBtn">
+                    <span class="menu-button-bar"></span>
+                    <span class="menu-button-bar"></span>
+                    <span class="menu-button-bar"></span>
+                </label>
+                <aside class="menu">
+                <ul>
+                    <span>STUDY IN</span>
+                    <p>로그인이 필요합니다</p>
+                    <p>User님, 안녕하세요</p>
+                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li>Sign Up</li></a>
+                    <a href="#"><li>Logout</li></a>
+                </ul>
+                </aside>
+                <div class="overlay"><label for="menuBtn"></label></label></div>
+            </div>
+        </section>
+    </header>
+    <nav class="sub-header">
+        <div class="menu-nav">
+            <a href="">STUDY</a>
+            <a href="">COMMUNITY</a>
+            <a href="">SERVICES</a>
+        </div>
+    </nav>
+    <!-- Global top [e] -->
+    <!-- Common top title[s] -->
+    <section class="top-title">
+        <div class="btn-back">
+            <a href="#">
+                <i class="fas fa-arrow-left" style="color: #949494;"></i>
+            </a>
+        </div>
+        <div class="top-title-content">
+            <span>자바스터디</span>
+        </div>
+    </section>
+    <!-- Common top title[e] -->
+    <!-- Main [s] -->
+    <main>
+        <section class="content-title">
+            <h5>1일차 학습 내용</h5>
+        </section>
+        <section class="content-detail">
+            <div class="write-info">
+                <div class="writer">
+                    <h5>작성자</h5>
+                    <p>닉네임</p>
+                </div>
+                <div class="other-info">
+                <span class="written-at">2021/03/30 00:00</span>
+                <div class="detail-icon-group">
+                    <div class="icon-data">
+                        <i class="fas fa-eye"></i><span>1,234</span>
+                    </div>
+                    <div class="icon-data">
+                        <i class="fas fa-thumbs-up"></i><span>152</span>
+                    </div>
+                    <div class="icon-data">
+                        <i class="fas fa-comment-dots"></i><span>3</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="detail">
+                <div class="detail-form">
+                    <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod illum quibusdam blanditiis sequi illo earum, necessitatibus harum, laudantium exercitationem commodi adipisci fugit? Modi, et eum. Neque cupiditate velit perferendis porro est alias atque magnam enim minima voluptates, corrupti id ducimus obcaecati labore quibusdam omnis architecto a odit quidem dolorem nostrum.</p>
+                    <span><h5>첨부파일</h5></span><span><a href="#" class="download-text">download.file</a></span>
+                </div>
+                <div class="detail-btn-group">
+                    <a href="#" class="btn">수정</a>
+                    <a href="#" class="btn">삭제</a>
+                </div>
+                    <div class="like-wrapper"><button class="btn-like"><i class="far fa-thumbs-up fa-2x"></i></button><span>이 글이 좋다면 '좋아요'를 눌러주세요</span></div>
+            </div>
+        </section>
+        <section class="detail-btn-group-readOnly">
+                <input type="checkbox" name="" id="reply-btn" class="reply-checkbox">
+                <label for="reply-btn" class="reply-label">댓글쓰기</label>
+                <div class="reply-write">
+                    <form>
+                        <h5>댓글을 입력하세요</h5>
+                        <textarea class="reply-content" name="reply-content" id="reply-content" cols="30" rows="10" placeholder="입력"></textarea>
+                    </form>
+                    <div class="reply-btn-group">
+                        <a href="#" class="reply-cancel"><label for="reply-btn">취소</label></a>
+                        <a href="#" class="reply-upload">완료</a>
+                    </div>
+                </div>
+                <div class="overlay"><label for="reply-btn" class="overlay-off-btn"></label></div>                
+        </section>
+        <section class="comment-list">
+            <div class="comment">
+                <h5>작성자닉네임</h5>
+                <span class="comment-time">20201/04/09 00:00</span>
+                <div class="comment-content">
+                    <p class="comment-line">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quod ipsa vitae magni, iure ex?</p>
+                    <div class="comment-btn-group">
+                        <a href="#" class="re-reply"><label for="reply-btn">댓글쓰기</label></a>
+                        <a href="#" class="edit-btn"><label for="reply-btn">수정</label></a>
+                        <a href="#" class="delete-btn">삭제</a>
+                    </div>
+                </div>
+                <div class="re-comment">
+                <h5>작성자닉네임</h5>
+                <span class="comment-time">20201/04/09 00:00</span>
+                <div class="re-comment-content">
+                    <p class="comment-line">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quod ipsa vitae magni, iure ex?</p>
+                    <div class="comment-btn-group">
+                        <a href="#" class="re-reply"><label for="reply-btn">댓글쓰기</label></a>
+                        <a href="#" class="edit-btn"><label for="reply-btn">수정</label></a>
+                        <a href="#" class="delete-btn">삭제</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="btn-nav">
+            <div class="btn-nav-wrapper">
+            <a href="#" class="btn">이전</a>
+            <a href="#" class="btn">목록으로</a>
+            <a href="#" class="btn">다음</a>
+        </div>
+        </section>
+    </main>
+    <!-- Main [e] -->
+    <footer>
+        <div class="footer-wrapper">
+            <span>Copyright &copy; 2021 STUDY IN All rights reserved</span>
+        </div>
+    </footer>
+    <!-- Global bottom[s] -->
+    <nav class="gb-bottom-nav">
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-bars"></i>
+            <span>카테고리</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-book"></i>
+            <span>스터디</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-home"></i>
+            <span>홈</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-envelope-square"></i>
+            <span>쪽지함</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="far fa-user"></i>
+            <span>마이페이지</span>
+        </a>
+    </nav>
+    <!-- Global bottom[s] -->
+</body>
+</html>

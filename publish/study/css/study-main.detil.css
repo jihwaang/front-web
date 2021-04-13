@@ -1,0 +1,61 @@
+.study-board-wrapper {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study-board-btn {
+    width: 10em;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-group {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 0.8em;
+}
+
+.btn-group > a {
+    width: 10em;
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 780px) {
+    .study-board-btn {
+        width: 80%;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .btn-group > a {
+        width: 15em;
+    }
+}

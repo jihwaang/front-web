@@ -1,0 +1,150 @@
+/* util */
+input[type=text].square {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 0 16px;
+  border: 0;
+  line-height: 2;
+  color: #333;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  background: #f5f5f5;
+  border-radius: 0;
+}
+
+input[type=text].enroll-title {
+  background-color: #fff;
+  border: 1px solid #979797;
+}
+
+.btn-enroll {
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+  font-size: 0.8rem;
+}
+
+.btn-enroll:hover {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+.btn-cancel {
+  border: 1px solid var(--secondary-color);
+  border-radius: 12px;
+  background-color: transparent !important;
+  color: var(--secondary-color) !important;
+  font-size: 0.8rem;
+}
+
+.btn-cancel:hover {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+}
+
+/* file stlye */
+input[type=file] {
+  display: none;
+}
+/*  */
+
+/* util[e] */
+
+/* Common top title[s] */
+/* .top-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: #fff;
+  position: sticky;
+  top: 60px;
+  z-index: 1;
+}
+
+.btn-back a {
+  padding: 0 15px;
+  position: relative;
+}
+
+.top-title-content {
+  width: 100%;
+  text-align: center;
+  padding-right: 1.5em;
+} */
+/* Common top title[e] */
+
+/* Enroll area[s] */
+.enroll-wrapper {
+  width: 100%;
+}
+
+.enroll-form {
+  width: 80%;
+  max-width: 780px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.enroll-content {
+  width: 100%;
+  border: 1px solid #979797;
+}
+
+.enroll-content-detail {
+  resize: none;
+  border: 0;
+  outline: none;
+  width: 100%;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+
+.file-attachment {
+  width: 100%;
+  text-align: right;
+}
+
+.file-attachment .uploadFile {
+  cursor: pointer;
+}
+
+.file-attachment span {
+  font-size: 0.9rem;
+  padding: 0 10px;
+}
+
+.file-attachment p {
+  font-size: 0.7rem;
+  color: #979797;
+  text-align:right;
+}
+
+.enroll-btn-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.enroll-btn-group .btn-enroll {
+  margin-left: auto;
+}
+
+/* Enroll area[e] */
+
+
+/* responsive */
+
+@media screen and (min-width: 1040px) {
+  .btn-back {
+    display: none;
+  }
+}

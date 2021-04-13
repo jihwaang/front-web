@@ -1,0 +1,20 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+html {height: 100%;}
+body {height: 100%; color:#fff; font-weight: bold;}
+header {width: 100%;height: 60px;background-color: blue;position: fixed;top: 0;left: 0;z-index: 1;}
+header aside {height: 100%;width: 30%;max-width: 200px;position: fixed;top: 0;right: 0;background-color: skyblue;}
+nav.sub-header {width: 100%;height: 40px;background-color: violet;position: fixed;top: 60px;left: 0;z-index: 0;}
+main {position:relative;top: 100px;background-color: greenyellow;}
+main section.top-title {width: 100%;height: 35px;background-color: pink;}
+main section.content-title {width: 100%;height: 20px;background-color: yellow;}
+main section.content-detail {width: 100%;height: 300px; /* 컨텐츠가 없어 임의 높이 지정*/background-color: red;}
+main section.btn-nav {width: 100%;height: 20px; /* 컨텐츠가 없어 임의 높이 지정*/background-color: indigo;}
+footer {position: relative;top: 100px;background-color: blue;height: 100px;width: 100%;}
+nav.gb-bottom-nav {position: fixed;bottom: 0;width: 100%;max-width: 780px;height: 60px;background-color: gray;}
+
+
+
+
+
+
+

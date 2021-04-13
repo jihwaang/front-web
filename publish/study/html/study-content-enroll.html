@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/study-content-enroll.css">
+    <link rel="stylesheet" href="../css/study-util.css" type="text/css">
+    <link rel="stylesheet" href="../css/gb-nav.css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="../css/util.css" type="text/css" /> -->
+    <script defer src="../js/gb-nav.js"></script>
+    <script defer src="../js/content-enroll.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Global top [s] -->
+    <header class="header">
+        <section class="gb-top-nav">
+            <div class="logo">
+                <a href="#">study in</a>
+            </div>
+            <div class="search-bar">
+                <div class="search-wrapper">
+                <input type="text" name="" id="" placeholder="검색어 입력">
+                <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="menu-button">
+                <input type="checkbox" name="" id="menuBtn">
+                <label for="menuBtn">
+                    <span class="menu-button-bar"></span>
+                    <span class="menu-button-bar"></span>
+                    <span class="menu-button-bar"></span>
+                </label>
+                <aside class="menu">
+                <ul>
+                    <span>STUDY IN</span>
+                    <p>로그인이 필요합니다</p>
+                    <p>User님, 안녕하세요</p>
+                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li>Sign Up</li></a>
+                    <a href="#"><li>Logout</li></a>
+                </ul>
+                </aside>
+                <div class="overlay"><label for="menuBtn"></label></label></div>
+            </div>
+        </section>
+    </header>
+    <nav class="sub-header">
+        <div class="menu-nav">
+            <a href="">STUDY</a>
+            <a href="">COMMUNITY</a>
+            <a href="">SERVICES</a>
+        </div>
+    </nav>
+    <!-- Global top [e] -->
+    <!-- Common top title[s] -->
+    <section class="top-title">
+        <div class="btn-back">
+            <a href="#">
+                <i class="fas fa-arrow-left" style="color: #949494;"></i>
+            </a>
+        </div>
+        <div class="top-title-content">
+            <span>스터디 게시글 등록</span>
+        </div>
+    </section>
+    <!-- Common top title[e] -->
+    <!-- Main [s] -->
+    <main>
+        <!-- Enroll area[s] -->
+        <section class="enroll-wrapper">
+            <form class="enroll-form" method="post" enctype="multipart/form-data">
+                <input type="text" name="title" id="" class="square enroll-title" placeholder="제목입력">
+                <div class="enroll-content">
+                    <textarea class="enroll-content-detail" name="content" id="" rows="10"></textarea>
+                </div>
+                <div class="file-attachment">
+                    <input type="file" class="uploadFile" name="uploadFile" id="uploadFile">
+                    <label for="uploadFile" class="uploadFile"><i class="fas fa-paperclip"></i><span class="fileName">파일 선택</span></label>
+                    <p>업로드 가능한 확장자 - xls, jpg, png, zip</p>
+                    <p>업로드 가능한 용량 - 10MB이내</p>
+                </div>
+                <div class="enroll-btn-group">
+                    <a href="" class="btn btn-enroll">완료</a>
+                    <a href="" class="btn btn-cancel">취소</a>
+                </div>
+            </form>
+        </section>
+        <!-- Enroll area[e] -->
+    </main>
+    <!-- Main [e] -->
+    <footer>
+        <div class="footer-wrapper">
+            <span>Copyright &copy; 2021 STUDY IN All rights reserved</span>
+        </div>
+    </footer>
+    <!-- Global bottom[s] -->
+    <nav class="gb-bottom-nav">
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-bars"></i>
+            <span>카테고리</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-book"></i>
+            <span>스터디</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-home"></i>
+            <span>홈</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="fas fa-envelope-square"></i>
+            <span>쪽지함</span>
+        </a>
+        <a href="#" class="bottom-nav-btn">
+            <i class="far fa-user"></i>
+            <span>마이페이지</span>
+        </a>
+    </nav>
+    <!-- Global bottom[s] -->
+</body>
+</html>
